@@ -1,0 +1,15 @@
+{
+  "name": "project_new",
+  "version": "1.0.0",
+  "description": "this is my first package that i made using \"npm init\"",
+  "license": "ISC",
+  "author": "vikalp upadhyay",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "give-me-a-joke": "^0.5.1"
+  }
+}
