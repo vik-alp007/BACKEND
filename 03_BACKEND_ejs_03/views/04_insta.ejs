@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSTAGRAM</title>
+</head>
+<body>
+    <h1>This page belongss to <%= username  %></h1>
+    <button>FOLLOW</button>
+    <button>MESAAGE!</button>
+    
+<% followers.map((follower) => { %>
+
+    <li><%= follower %></li>
+
+<% }) %>
+<!-- but "for" jyada acha hoga yha 
+<%# for(let follower of followers){
+<li><%#=
+    follower
+    %>
+    <%#  }%> 
+    %> -->
+<!-- bus yhi concept yaad rkho html ejs k bahr html tag mein and ejs ejs tag mein ( as a variable k liye <%#=%> use kro and control flow k liye without "=") -->
+</body>
+</html>

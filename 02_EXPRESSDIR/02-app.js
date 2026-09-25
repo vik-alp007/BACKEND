@@ -3,7 +3,7 @@ const express=require("express")
 const app=express()
 console.dir(app)
 // app.listen(port,callback). hum yha pe port ko ek variable m bna skte hai yha sidha fun m likh de 
-// listen line ka mtalab express, server ko 3000 port p start krdo 
+// listen line ka mtlab express, server ko 3000 port p start krdo 
 
 // listen wali line ka matlab 8080 port par baith jao and req suno(matlb jab bhi koi browser p search krega toh req dega)
 // app.get(path,callback)

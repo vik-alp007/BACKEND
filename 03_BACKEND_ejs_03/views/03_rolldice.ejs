@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <H1> VALUE OF DICE AFTER ROLLING: <%= Math.floor( Math.random()*6)+1 %></H1> -->
+     <H1> VALUE OF DICE AFTER ROLLING: <%=dicevalue  %></H1>
+     <!-- 👆yha pe data genereate nhi horha hai , db se aarah hai jo hum render m pass krrhe hai  -->
+    <!-- HUM ASSUME KRTE HAI KI JO YEH EJS TAG KE ANDAR DATA AAYA HAI YEH DATABASE SE AAYA HAI -->
+    <!-- conditional statement in ejs 💕-->
+     <% if(dicevalue==6){ %>
+        <h1>nice! roll dice again</h1>
+        <% } %>
+<!-- yha pe js ka logic ejs ke andar and normal html html tags me  -->
+</body>
+</html>

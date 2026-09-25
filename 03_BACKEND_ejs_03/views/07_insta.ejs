@@ -1,0 +1,39 @@
+<!-- 👀SEE LINE 34 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/01_style.css">
+    <style>
+        img{
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>INSTAGRAM</title>
+</head>
+<body>
+    <h1>This page belongss to  <%= data.name  %> </h1>
+    <button>FOLLOW</button>
+    <button>MESAAGE!</button>
+<p>followers:<%= data.followers  %>&nbsp;&nbsp;&nbsp;&nbsp;
+following:<%= data.following  %></p>
+<!-- nbsp yeh non breaking spaces hote hai ! -->
+ <hr>
+ <% for(let post of data.posts){%>
+<img src="<%=post.image%>" alt="some image">
+<!-- 🔥👆ITS VERY IMP TO USE EJS TAGS SRC MEIN EJS TAG KA USE KRO "" ke an -->
+<p>LIKE:<%= post.like  %></p>
+<p>COMMENTS:<%= post.comments  %></p>
+    <% 
+ } %>
+ 
+ <!-- for(let post of posts){}
+  iske liye images like and comments print krwana hai  -->
+
+<!-- 🔥 YHA PE HUM SCRIPT TAG LAST M ADDD KRRHE HAI BCZ ELEMENT PAEHLE HONE CHAHIYE FUNCTIONALITY ADD KRNE K LIYE 👇 -->
+ <script src="/01_app.js"></script>
+ <!-- yah dhyaan do "/" iska use kia gya hai. -->
+</body>
+</html>
