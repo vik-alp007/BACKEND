@@ -17,7 +17,7 @@ let followers=["vikalp","shivansh","shalu"]
 //  if i want loops in ejs then 
 // app.get("/:username",(req,res)=>{
 //    let {username}=req.params,
-// 💕let followers=["vikalp","urooj","urvika"]
+// 💕let followers=["vikalp","shivansh","shalu"]
 //    console.log(username)
 //    res.render("04_insta.ejs",{username, 💕followers})
 //  })

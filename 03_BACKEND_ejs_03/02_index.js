@@ -1,4 +1,4 @@
-// if i want ki 02index.js ko 03 backe senhi main 'BACKEND" se run kru tab problem yeh aaegi ki views folder 03 mein hai main(BACKEND) m nhi hai isiliye soln👇
+// if i want ki 02index.js ko 03 backend se nhi ,main 'BACKEND" se run kru tab problem yeh aaegi ki views folder 03 mein hai main(BACKEND) m nhi hai isiliye soln👇
 const express=require("express")
 const app=express()
 const path=require("path")//YEH EK PACKAGE HAI ,THEREFORE REQUIRE BHI KRNA HOGA
